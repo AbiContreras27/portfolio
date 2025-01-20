@@ -12,6 +12,7 @@ const poppins = Poppins({weight:["400"],subsets: ["latin"]});
 
 export const metadata: Metadata = {
   title: "AbigailDev Landing Page ♥",
+  icons: "/icon1.ico",
   description: "Landing page made by AbigailDev",
 };
 
