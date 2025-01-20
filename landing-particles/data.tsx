@@ -139,6 +139,6 @@ export const dataPortfolio = [
         title: "Gestión de Turnos",
         image: "/image-3.png",
         urlGithub: "https://github.com/AbiContreras27/gestionTurno",
-        urlDemo: "https://gestion-turno-2yw3.vercel.app/login",
+        urlDemo: "https://gestion-turno.vercel.app",
     }
 ];

@@ -22,6 +22,7 @@ export default function Header() {
                                 href={src}
                                 target="blank"
                                 className="transtion-all duration-300 hover:text-secondary"
+                                aria-label={`Visit ${src}`}
                             >
                                 {logo}
                             </Link>
