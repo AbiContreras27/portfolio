@@ -11,11 +11,11 @@ export default function SliderServices() {
         breakpoints={{
             320: {
                 slidesPerView: 1,
-                spaceBetween: 15
+                spaceBetween: 10
             },
             768: {
                 slidesPerView: 1,
-                spaceBetween: 15
+                spaceBetween: 10
             },
             1024: {
                 slidesPerView: 2,

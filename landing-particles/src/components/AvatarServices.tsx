@@ -6,7 +6,7 @@ export default function ImgServices() {
     return (
         <MotionTransition 
         position='right' 
-        className="bottom-0 left-0 ml-5 hidden md:inline-block md:absolute">
+        className="bottom-0 left-0 ml-5 hidden md:inline-block md:absolute z-0">
             <Image 
             src="/services.png" 
             width="200"

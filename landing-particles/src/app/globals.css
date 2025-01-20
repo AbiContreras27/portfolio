@@ -2,9 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body {
+html {
   color: #fff;
-  background: #1f1934;
+  background: linear-gradient(90.21deg, rgba(109, 32, 119, 0.5) -5.91%, rgba(1, 33, 105, 0.5) 111.58%), rgba(0, 0, 0, 0.8);
+
 }
 
 main {
@@ -16,7 +17,7 @@ main {
 .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
 .swiper-pagination-horizontal.swiper-pagination-bullets
   .swiper-pagination-bullet {
-  background-color: #ffcd00;
+  background-color: #f5741c;
 }
 
 @layer utilities {
