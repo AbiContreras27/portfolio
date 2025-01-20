@@ -1,8 +1,5 @@
 "use client"
 
-import Image from "next/image";
-import Link from "next/link";
-
 import { dataPortfolio } from "../../../../data";
 import ContainerPage from "@/components/Container";
 import TransitionPage from "@/components/TransitionPage";
