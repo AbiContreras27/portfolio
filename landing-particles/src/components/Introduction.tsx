@@ -21,10 +21,10 @@ export default function Introduction() {
                         Si puedes Pensarlo,
                         <TypeAnimation
                             sequence={[
-                                "puedes crearlo", 1000,
-                                "puedes programarlo", 1000,
-                                "puedes implementarlo", 1000,
-                                "puedes hacerlo realidad", 1000
+                                "puedes crearlo", 3000,
+                                "puedes programarlo", 3000,
+                                "puedes implementarlo", 3000,
+                                "puedes hacerlo realidad", 3000
                             ]}
                             wrapper="span"
                             speed={50}
