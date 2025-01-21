@@ -21,10 +21,10 @@ export default function Introduction() {
                         Si puedes Pensarlo,
                         <TypeAnimation
                             sequence={[
-                                "puedes crearlo", 3000,
-                                "puedes programarlo", 3000,
-                                "puedes implementarlo", 3000,
-                                "puedes hacerlo realidad", 3000
+                                "puedes crearlo", 1000,
+                                "puedes programarlo", 1000,
+                                "puedes implementarlo", 1000,
+                                "puedes hacerlo realidad", 1000
                             ]}
                             wrapper="span"
                             speed={50}
@@ -43,7 +43,8 @@ export default function Introduction() {
                         Ver Proyectos
                         </Link>
                         <Link 
-                            href="/contact" 
+                            href="https://www.linkedin.com/in/contrerasabi278/" 
+                            target="_blank"
                             className="px-3 py-2 transition-all border-2 cursor-pointer text-secondary border-secondary text-md w-fit 
                             rounded-xl hover:shadow-xl hover:shadow-secondary"
                         > 

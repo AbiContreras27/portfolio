@@ -4,6 +4,7 @@ import ContainerPage from "@/components/Container";
 import CuadrosImage from "@/components/CuadrosImage";
 import SliderServices from "@/components/SliderServices";
 import TransitionPage from "@/components/TransitionPage";
+import { Target } from "lucide-react";
 
 
 export default function ServicesPage() {
@@ -19,7 +20,11 @@ export default function ServicesPage() {
 
                     <h1 className="text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-5">Mis <span className="font-bold text-secondary"> servicios.</span></h1> <br />
                     <p className="mb-3 text-xl text-gray-300">Ofrezco servicios de desarrollo web full stack especializados en la creación de sitios web, aplicaciones atractivas y funcionales, diseño interfaces de usuario intuitivas y responsivas que reflejan la identidad de marca de mis clientes y mejoran su presencia en línea.</p>
-                    <button className="px-3 py-2 rounded-lg bg-secondary hover:bg-secondary/65">Contacta conmigo</button>
+                    <button 
+                        onClick={() => window.open('https://www.linkedin.com/in/contrerasabi278', '_blank') }
+                        className="px-3 py-2 rounded-lg bg-secondary hover:bg-secondary/65">
+                            Contacta conmigo
+                    </button>
                 </div>
 
                 <div>
