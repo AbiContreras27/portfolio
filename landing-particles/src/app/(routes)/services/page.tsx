@@ -1,5 +1,6 @@
 "use client"
 import ImgServices from "@/components/AvatarServices";
+import ContainerPage from "@/components/Container";
 import CuadrosImage from "@/components/CuadrosImage";
 import SliderServices from "@/components/SliderServices";
 import TransitionPage from "@/components/TransitionPage";
@@ -8,11 +9,12 @@ import TransitionPage from "@/components/TransitionPage";
 export default function ServicesPage() {
     return (
         <>
+        
             <TransitionPage/>
             <CuadrosImage/>
             <ImgServices/>
-            
-            <div className="grid items-center justify-center h-screen max-w-5xl gap-6 mx-auto md:grid-cols-2 mt-20 relative z-10">
+            <ContainerPage>
+            <div className="grid items-center justify-center max-w-5xl gap-6 mx-auto md:grid-cols-2 mt-20 relative z-10">
                 <div className="max-w-[300px] md:mt-25">
 
                     <h1 className="text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-5">Mis <span className="font-bold text-secondary"> servicios.</span></h1> <br />
@@ -24,6 +26,7 @@ export default function ServicesPage() {
                     <SliderServices />
                 </div>
             </div>
+            </ContainerPage>
         </>
     )
 }
