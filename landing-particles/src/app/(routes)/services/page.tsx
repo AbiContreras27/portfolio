@@ -4,7 +4,6 @@ import ContainerPage from "@/components/Container";
 import CuadrosImage from "@/components/CuadrosImage";
 import SliderServices from "@/components/SliderServices";
 import TransitionPage from "@/components/TransitionPage";
-import { Target } from "lucide-react";
 
 
 export default function ServicesPage() {
